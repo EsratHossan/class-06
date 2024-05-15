@@ -89,7 +89,7 @@ nav{
     font-size: 30px;
     padding: 10px;
 }
-.login-main form input[type="email"], input[type="password"]{
+.login-main form input[type="email"]{
     font-size: 20px;
     height: 30px;
     width: 50%;
@@ -97,17 +97,73 @@ nav{
     border-radius: 5px;
     padding: 0 0;
 }
+.login-main  input[type="password"]{
+    width: 50%;
+    border: none;
+}
 .login-main button{
     height: 30px;
     width: 80px;
     font-size: 20px;
     border-radius: 5px;
+    background-color: rgba(255, 17, 0, 0.537);
+    color: white;
 }
 .login-main a{
     text-decoration: none;
     font-size: 20px;
+    color: rgb(44, 39, 46);
+}
+/*create account css start*/
+.account-main{
+    height: 600px;
+    width: 900px;
+    background-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 16px 8px gray;
+}
+.account-main h2{
+    font-size: 30px;
+    padding: 10px;
+}
+.account-main form input[type="email"], input[type="password"]{
+    font-size: 20px;
+    height: 30px;
+    width: 30%;
+    border-radius: 5px;
+    padding: 0 0;
+}
+.account-main input[type="text"], input[type="number"]{
+    font-size: 20px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+}
+.account-main button{
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: rgba(255, 17, 0, 0.537);
+    color: white;
+}
+.account-main a{
+    text-decoration: none;
+    font-size: 20px;
     color: rgb(187, 0, 255);
 }
+.account-main input[type ="checkbox"]{
+    height: 20px;
+    width: 20px;
+    float: center;
+}
+.account-main label{
+    font-size: 25px;
+    font-weight: 500;
+}
+/* create account css end */
 /* banner css Start */
 .banner{
     background-color: aqua;

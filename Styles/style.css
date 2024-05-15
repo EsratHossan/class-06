@@ -89,12 +89,13 @@ nav{
     font-size: 30px;
     padding: 10px;
 }
-.login-main form input{
+.login-main form input[type="email"], input[type="password"]{
     font-size: 20px;
     height: 30px;
     width: 50%;
     border: none;
     border-radius: 5px;
+    padding: 0 0;
 }
 .login-main button{
     height: 30px;
@@ -203,11 +204,12 @@ nav{
 .list{
     background: #ffffff;
     box-shadow: 0px 6px 50px #757575;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .list img{
     width: 500px;
     height: 300px;
+    border-radius: 10px;
 }
 .list-title a{
     text-decoration: none;
@@ -235,22 +237,22 @@ nav{
     transform: scale(1.2);
 }
 /* list css end */
-/* contact styles */
-.contact{
+/* footer styles css start */
+.connect{
     display: flex;
     gap: 100px;
-    background: teal;
+    background-color: teal;
     padding: 130px 200px;
     margin-top: 100px;
 }
-.contact .section-title{
+.connect .section-title{
     text-align: left;
     color: white;
 }
 .section-description{
     color: white;
 }
-.contact input[type="text"], input[type="email"], textarea{
+.connect input[type="text"], input[type="email"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
@@ -260,11 +262,11 @@ nav{
 input{
     height: 30px;
 }
-.contact a{
+.connect a{
     text-decoration: none;
     color: black;
 }
-.contact a i{
+.connect a i{
     font-size: 30px;
     padding: 5px;
 }
@@ -274,6 +276,48 @@ input{
     font-size: 15px;
     border-radius: 5px;
 }
-
-
+/* footer css end */
+/* contacts css start */
+.contacts{
+    
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.contacts-container{
+    background-color: skyblue;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 20px;
+    
+}
+.contact{
+    background: #ffffff;
+    box-shadow: 0px 6px 50px #757575;
+    border-radius: 5px;
+    background-color: black;
+}
+.contact img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.contact-title{
+    text-decoration: none;
+    font-family: 700;
+    font-size: 30px;
+    color: blue;
+}
+.contact-position{
+    color: white;
+    font-size: 20px;
+}
+.contact-info{
+    color: white;
+    font-size: 15px;
+}
 

@@ -279,14 +279,16 @@ input{
 /* footer css end */
 /* contacts css start */
 .contacts{
-    
+
     width: 80%;
     margin: 0 auto;
     text-align: center;
    
 }
 .contacts-container{
-    background-color: skyblue;
+    background-image: url(../images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     gap: 24px;
     justify-content: center;

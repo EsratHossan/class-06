@@ -1,0 +1,279 @@
+/* navbar css start */
+nav{
+    background-color: teal;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.nav-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+    width: 100px;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+.menu ul li:hover{
+    background-color: rgb(255, 0, 0);
+}
+.menu{
+    width: 70%;
+    float: left;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+    display: block;
+    padding: 15px 20px;
+}
+/* dropdown css start */
+.menu ul li .dropdown{
+    display: inline-block;
+}
+.dropdown{
+    display: none;
+    text-align: center;
+    position: absolute;
+    background-color: teal;
+    min-width: 160px;
+    min-height: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown{
+    visibility: hidden;
+}
+.menu ul li:hover .dropdown{
+    visibility: visible;
+}
+.dropdown a:hover{
+    background-color: rgb(255, 0, 0);
+}
+.menu ul input{
+    margin: 15px auto;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/*navbar css end */
+/* login part css start*/
+.login-main{
+    height: 400px;
+    width: 500px;
+    background-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0px 16px 8px gray;
+}
+.login-main h2{
+    font-size: 30px;
+    padding: 10px;
+}
+.login-main form input{
+    font-size: 20px;
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+}
+.login-main button{
+    height: 30px;
+    width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.login-main a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(187, 0, 255);
+}
+/* banner css Start */
+.banner{
+    background-color: aqua;
+    height: 600px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+.banner img{
+    float: left;
+    width: 30%;
+    margin: 0px auto;
+}
+.banner-title{
+    font-size: 90px;
+    width: 70%;
+    font-weight: 700;
+}
+.banner-title h2{
+    color: blue;
+   
+}
+.banner-title .second-name{
+    color: white;
+}
+.banner-title .banner-description{
+    font-size: 30px;
+    color: black;  
+}
+/* banner css end */
+/* Slider css */
+#slider{
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  #slider figure{
+    position: relative;
+    width: 398%;
+    margin-top: 30px;
+    padding: 30px;
+    animation: 10s slider infinite;
+    justify-content: center;
+    align-items: center;
+  }
+  #slider figure img{
+    float: left;
+    width: 25%;
+    height: 700px;
+  }
+  @keyframes slider{
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 0;
+    }
+    45% {
+      left: -100%;
+    }
+    50% {
+      left: -200%;
+    }
+    70% {
+      left: -200%;
+    }
+    75% {
+      left: -300%;
+    }
+    95% {
+      left: -300%;
+    }
+    100% {
+      left: -400%;
+    }
+  }
+  #slider figure img{
+    background: green;
+    box-shadow: 0px 6px 50px #757575;
+    border-radius: 5px;
+  }
+/* Slider css end */
+/* Lists css start */
+.lists{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+.lists-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    background: #ffffff;
+    box-shadow: 0px 6px 50px #757575;
+    border-radius: 5px;
+}
+.list img{
+    width: 500px;
+    height: 300px;
+}
+.list-title a{
+    text-decoration: none;
+    font-family: 700;
+    font-size: 30px;
+    color: blue;
+}
+.list-description{
+    font-weight: 400;
+    font-size: 20px;
+}
+.list-links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 5px;
+    color: black;
+}
+.list-headline{
+    font-weight: 600;
+    font-size: 25px;
+    color: red;
+}
+.list:hover{
+    transform: scale(1.2);
+}
+/* list css end */
+/* contact styles */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: teal;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.contact .section-title{
+    text-align: left;
+    color: white;
+}
+.section-description{
+    color: white;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:  18px 30px;
+    
+}
+input{
+    height: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact a i{
+    font-size: 30px;
+    padding: 5px;
+}
+.btn-primary{
+    width: 80px;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+

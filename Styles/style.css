@@ -389,4 +389,56 @@ input{
     color: white;
     font-size: 15px;
 }
-
+/* contact css end */
+/* rahat villa css start*/
+.villa-container{
+    background-color: skyblue;
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 50px black;
+}
+.villa{
+    text-align: center;
+}
+.villa img{
+    width: 80%;
+    border-radius: 30px;
+    padding: 15px 5px;
+}
+.villa-title{
+    font-size: 60px;
+    color: blue;
+}
+.locat{
+    font-size: 20px;
+}
+.villa-price{
+    font-size: 30px;
+    color: red;
+}
+.villa-desc{
+    font-size: 25px;
+}
+.Villa-links a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 5px 5px;
+    margin-left: 15px;
+    color: black;
+}
+.villa-btn{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(65, 184, 65);
+}
+.villa-btn:hover{
+    background-color: red;
+}

@@ -109,10 +109,16 @@ nav{
     background-color: rgba(255, 17, 0, 0.537);
     color: white;
 }
+.login-main button:hover{
+    background-color: red;
+}
 .login-main a{
     text-decoration: none;
     font-size: 20px;
     color: rgb(44, 39, 46);
+}
+.login-main a:hover{
+    color: red;
 }
 /*create account css start*/
 .account-main{
@@ -131,6 +137,7 @@ nav{
     font-size: 20px;
     height: 30px;
     width: 30%;
+    border: none;
     border-radius: 5px;
     padding: 0 0;
 }
@@ -149,6 +156,9 @@ nav{
     background-color: rgba(255, 17, 0, 0.537);
     color: white;
 }
+.account-main button:hover{
+    background-color: red;
+}
 .account-main a{
     text-decoration: none;
     font-size: 20px;
@@ -166,31 +176,32 @@ nav{
 /* create account css end */
 /* banner css Start */
 .banner{
+    background-image: url(../images/rento-logo.png.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
     background-color: aqua;
     height: 600px;
     margin: 0 auto;
     padding: 60px 20px;
 }
-.banner img{
-    float: left;
-    width: 30%;
-    margin: 0px auto;
-}
 .banner-title{
-    font-size: 90px;
-    width: 70%;
     font-weight: 700;
+    text-align: center;
+    color: blue; 
+    margin-left: 130px;
+    font-size: 90px;
+    width: 70%;   
 }
-.banner-title h2{
-    color: blue;
-   
+.banner-title u{
+    font-size: 200px;
 }
 .banner-title .second-name{
     color: white;
+    font-size: 200px;
 }
-.banner-title .banner-description{
-    font-size: 30px;
-    color: black;  
+.banner-desc{
+    font-size: 40px;
+    text-align: center; 
 }
 /* banner css end */
 /* Slider css */
